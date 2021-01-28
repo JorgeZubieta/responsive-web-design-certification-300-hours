@@ -27,14 +27,22 @@
     .smaller-image {
     width: 100px;
     }
+
+    .thick-green-border{
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    /* border-radius: 10px; only for the corners*/
+    border-radius: 50%;
+    }
 </style>
 
 <body>
     <h2 class="red-text"> CatPhotoApp</h2>
     <main>
         <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-        
-        <a href="#"><img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+        <!-- whe can call two classes -->
+        <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
   
         <div>
             <p>Things cats love:</p>
